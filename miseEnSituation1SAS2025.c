@@ -60,8 +60,14 @@ int main() {
      char Name[100];
     printf("hi welcome to the progamme,please set the maximum amount of items you wanna store(cant surpass 50 items)\n");
     scanf("%d",&max);
-    printf("please select your desired option\n" );
-    
+    printf("please select your desired option\n
+        1.add item
+        2.show list
+        3.search item details
+        4.modify stock
+        5.calculate net worth of stock
+        \n" );
+        scanf("%d",&choice);
     switch(choice)
     case 1:
       additem(item.name,item.price,item.quantity); 
